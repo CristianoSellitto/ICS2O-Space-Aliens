@@ -1,9 +1,8 @@
 {
-  "name": "PWA",
-  "short_name": "PWA",
-  "description": "A PWA Test",
-  "scope": "/<RESPITORY>/",
-  "start_url": "/<RESPITORY>/",
+  "name": "Space Aliens",
+  "short_name": "Space Aliens",
+  "description": "Space Aliens",
+  "start_url": "/ICS2O-Space-Aliens/",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "display": "standalone", 
