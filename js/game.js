@@ -4,6 +4,10 @@
 // ICS2O-Space-Aliens
 // April 13-19 2022
 
+import SplashScene from './splashScene.js'
+
+const splashScene = new SplashScene()
+
 // Scene
 const config = {
   type: Phaser.AUTO,
@@ -25,4 +29,7 @@ const config = {
 }
 
 const game = new Phaser.Game(config)
-console.log(game)
+
+game.scene.add('splashScene', splashScene)
+
+game.scene.start('splashScene')
