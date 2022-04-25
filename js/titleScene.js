@@ -3,11 +3,11 @@
 // Cristiano
 // ICS2O-Space-Aliens
 // April 13-25 2022
-// Splash Scene
+// Title Scene
 
-class SplashScene extends Phaser.Scene {
+class TitleScene extends Phaser.Scene {
   constructor () {
-    super({ key: 'splashScene' })
+    super({ key: 'titleScene' })
   }
   
   init (data) {
@@ -15,15 +15,14 @@ class SplashScene extends Phaser.Scene {
   }
   
   preload () {
-    console.log('Splash Scene')
+    console.log('Title Scene')
   }
   
   create (data) {
   }
   
   update (time, delta) {
-    this.scene.switch('titleScene')
   }
 }
 
-export default SplashScene
+export default TitleScene

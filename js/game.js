@@ -2,13 +2,16 @@
 
 // Cristiano
 // ICS2O-Space-Aliens
-// April 13-19 2022
+// April 13-25 2022
 
 import SplashScene from './splashScene.js'
+import TitleScene from './titleScene.js'
 
+// Game scenes
 const splashScene = new SplashScene()
+const titleScene = new TitleScene()
 
-// Scene
+// Game scene
 const config = {
   type: Phaser.AUTO,
   width: 1920,
@@ -31,5 +34,6 @@ const config = {
 const game = new Phaser.Game(config)
 
 game.scene.add('splashScene', splashScene)
+game.scene.add('titleScene', titleScene)
 
 game.scene.start('splashScene')
