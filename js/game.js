@@ -23,7 +23,7 @@ const config = {
     }
   },
   // Set BG colour
-  backgroundColor: 0x5f6e7a,
+  backgroundColor: 0xffffff,
   // Set screen in the middle of page
   scale: {
     mode: Phaser.Scale.FIT,
