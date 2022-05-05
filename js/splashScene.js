@@ -2,7 +2,7 @@
 
 // Cristiano
 // ICS2O-Space-Aliens
-// April 13-25 2022
+// April 13 - May 5 2022
 // Splash Scene
 
 class SplashScene extends Phaser.Scene {
