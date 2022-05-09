@@ -2,7 +2,7 @@
 
 // Cristiano
 // ICS2O-Space-Aliens
-// April 13 - May 5 2022
+// April 13 - May 9 2022
 // Game Scene
 
 class GameScene extends Phaser.Scene {
@@ -33,6 +33,24 @@ class GameScene extends Phaser.Scene {
   }
   
   update (time, delta) {
+    // Is called 60 times a second
+    
+    const keyLeftObj = this.input.keyboard.addKey('LEFT')
+    const keyRightObj = this.input.keyboard.addKey('RIGHT')
+
+    if (keyLeftObj.isDown === true) {
+      this.ship.x -= 15
+      if (this.ship.x < 0) {
+        this.ship.x = 0
+      }
+    }
+
+    if (keyRightObj.isDown === true) {
+      this.ship.x += 15
+      if (this.ship.x > 1920) {
+        this.ship.x = 1920
+      }
+    }
   }
 }
 
