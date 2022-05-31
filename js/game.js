@@ -2,7 +2,7 @@
 
 // Cristiano
 // ICS2O-Space-Aliens
-// April 13 - May 13 2022
+// April 13 - May 31 2022
 
 import SplashScene from './splashScene.js'
 import TitleScene from './titleScene.js'
